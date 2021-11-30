@@ -18,5 +18,18 @@ body{
 }
 .header-btn{
     color: white;
+    text-decoration: none;
     background-color: #081158;
+}
+.projects-a{
+    padding: 5px 10px;
+    color: white;
+    background-color: rgb(6, 6, 41);
+    border-radius: 20px;
+    text-decoration: none;
+}
+.footer-container{
+    background-color: #f8f9fa;
+    height: 130px;
+    margin-top: 7rem;
 }

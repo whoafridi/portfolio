@@ -21,24 +21,25 @@
               </button>
               <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div class="navbar-nav">
-                  <a class="nav-link" aria-current="page" href="#">Home</a>
+                  <a class="nav-link" aria-current="page" href="#home">Home</a>
                   <a class="nav-link" href="#projects">Projects</a>
+                  <a class="nav-link" href="#technologies">Technology</a>
                   <a class="nav-link" href="#aboutme">About me</a>
-                  <a class="nav-link">Cotact me</a>
+                  <a class="nav-link" href="#contactme">Contact me</a>
                 </div>
               </div>
             </div>
           </nav>
       </div>
-      <!-- hero/main area -->
-      <div class="container mt-2">
+      <!-- hero/main area --> 
+      <div class="container mt-3" id="home">
           <div class="row text-start align-items-center">
               <div class="col-lg-6 col-md-6 col-sm-12">
                   <h1 class="header h1 mt-10 fw-bold">Hi there,</h1>
                   <h2 class="header h1 fw-bold">Md. Rafiuzzaman Bhuiyan</h2>
                   <p class="header-p">Junior web developer || Front end developer || React developer</p>
                   <p class="header-p">I'm a learner by profession. Wanted to learn new technologies. Always try to be updated about the things that I loved so much.</p>
-                  <button type="button" class="btn btn-dark header-btn rounded-pill">Download resume</button>
+                  <button type="button" class="btn btn-dark header-btn rounded-pill"><a class="header-btn" href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view" target="_blank">Download resume</a></button>
               </div>
               <div class="col-lg-6 col-md-6 col-sm-12">
                   <img class="img-fluid" src="images/hero.svg" alt="hero-icon">
@@ -46,7 +47,7 @@
           </div>
       </div>
       <!-- about me area  -->
-      <div class="container mt-5" id="aboutme">
+      <div class="container mt-4 mb-2" id="aboutme">
           <h1 class="header text-center h1 fw-bold">About me</h1>
           <div class="row text-start align-items-center">
               <div class="col-lg-6 col-md-6 col-sm-12">
@@ -60,11 +61,95 @@
           </div>
       </div>
       <!-- projects area  -->
-      <div class="container" id="projects">
+      <div class="container mt-3 mb-5" id="projects">
         <h1 class="header text-center h1 fw-bold">Projects</h1>
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/projects/4.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">Food Network</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-text">
+                <a class="projects-a" href="https://whoafridi.github.io/food_network/" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/projects/2.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ProCourier services</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-text">
+                <a class="projects-a" href="https://pro-courier.web.app/" target="_blank">View</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card h-100">
+              <img src="images/projects/3.png" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title fw-bold">ProDenti healthcare services</h5>
+                <p class="card-text"></p>
+              </div>
+              <div class="card-text">
+                <a class="projects-a" href="https://pro-denti.web.app/" target="_blank" rel="noopener noreferrer">View</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- technology area  -->
+      <div class="container mt-3 mb-2" id="technologies">
+          <h1 class="header text-center h1 fw-bold">Teachnology stack</h1>
+          <div class="row">
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img class="w-25" src="https://i.ibb.co/NZhp07g/html-1.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                <img class="w-25" src="https://i.ibb.co/MpdS4VS/html3.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                <img class="w-25" src="https://i.ibb.co/YPRVVsb/bootstrap.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                <img class="w-25" src="https://i.ibb.co/WtybbhY/javascript.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                <img class="w-25" src="https://i.ibb.co/23YDv2x/react.png" alt="">
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img class="w-25" src="https://i.ibb.co/ZcJ0H3L/nodejs.png" alt="">
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img class="w-25" src="https://i.ibb.co/cL9rRwg/firebase.png" alt="">
+                  </div>
+              </div>
+              <div class="col-md-3 col-sm-6 mt-3">
+                <div class="d-flex align-items-center justify-content-center">
+                  <img class="w-25" src="https://i.ibb.co/nBCvt58/mongodb.png" alt="">
+                  </div>
+              </div>
+          </div>
       </div>
       <!-- contact area  -->
-      <div class="container" id="contactme">
+      <div class="container mt-4 mb-2" id="contactme">
         <h1 class="header text-center h1 fw-bold">Contact me</h1>
         <div class="row text-start align-items-center">
             <div class="col-lg-6 col-md-6 col-sm-12">
@@ -93,6 +178,27 @@
         </div>
       </div>
       <!-- footer area -->
+      <div class="footer-container mt-4">
+        <div class="container">
+          <div class="row text-start align-items-center">
+            <div class="col-md-4 mt-3">
+              <h4>About</h4>
+              <h6>web developer</h6>
+              <h6>passionate for building web application</h6>
+            </div>
+            <div class="col-md-4 mt-3">
+              <h4>Pages</h4>
+              <h6>Home</h6>
+              <h6>About me</h6>
+            </div>
+            <div class="col-md-4 mt-3">
+              <h4>Contact</h4>
+              <h6>Phone : ####</h6>
+              <h6>mail : afridirk10@gmail.com</h6>
+            </div>
+          </div>
+        </div>
+      </div>
       <!-- bootstrap js  -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
 
