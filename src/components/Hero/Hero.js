@@ -101,7 +101,7 @@ export default function Hero() {
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <h1 className="header h1 mt-10 fw-bold">Hi there,</h1>
                 <h2 className="header h1 fw-bold">Md. Rafiuzzaman Bhuiyan</h2>
-                <p className="header-p">I'm a <span style={{ color: '#081158', fontWeight: 'bold' ,fontSize:"30px"}}>
+                <p className="header-p">I'm a <span style={{ color: '#081158', fontWeight: 'bold' ,fontSize:"25px"}}>
           {/* Style will be inherited from the parent element */}
           <Typewriter
             words={[ 'Junior Odoo developer ',"Python developer", 'Front end developer ','React developer']}
@@ -114,7 +114,7 @@ export default function Hero() {
           />
         </span>
                 </p>
-                <p className="header-">I'm a learner by profession. Wanted to learn new technologies. Always try to be updated about the things that I loved so much.</p>
+                <p className="header">I'm a learner by profession. Wanted to learn new technologies. Always try to be updated about the things that I loved so much.</p>
                 <button type="button" className="btn btn-dark header-btn rounded-pill"><a className="header-btn" href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view" target="_blank">Download resume</a></button>
             </div>
             <div className="col-lg-6 col-md-6 col-sm-12" data-aos="fade-up-left" data-aos-easing="ease-out-cubic"

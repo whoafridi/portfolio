@@ -16,7 +16,9 @@ export default function Project() {
                 <p className="card-text"></p>
               </div>
               <div className="card-text">
+                <button type="submit" className="btn btn-dark  header-btn rounded-pill">
                 <a className="projects-a" href="https://whoafridi.github.io/food_network/" target="_blank">View</a>
+                </button>
               </div>
             </div>
           </div>

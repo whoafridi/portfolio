@@ -12,7 +12,7 @@ export default function Aboutme() {
             <div className="col-lg-6 col-md-6 col-sm-12">
                 <p className="header">Hi, I am a newbie web developer. I am a graduated student. I started learning web development from last Autumn. Before that I'm keen to develop some porjects of my university time. The pinnacle of development comes from the programming hero. I am still working on web development. My desire is to be a full stack web developer.</p>
                 <button type="button" className="btn btn-dark  header-btn rounded-pill">Hire me</button>
-                <button type="button" className="btn btn-dark  header-btn rounded-pill">Contact me</button>
+                <button type="button" className="btn btn-dark  header-btn rounded-pill ms-2">Contact me</button>
             </div>
         </div>
     </div>
