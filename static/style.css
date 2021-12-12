@@ -28,8 +28,25 @@ body{
     border-radius: 20px;
     text-decoration: none;
 }
-.footer-container{
-    background-color: #f8f9fa;
-    height: 130px;
-    margin-top: 7rem;
+.card-group{
+    background-color: #ffffff;
+    border: 10px whitesmoke;
+    box-shadow: 10px 15px 10px whitesmoke;
+    border-radius: 15px 10px;
 }
+.footer {
+    background-color: #101056;
+    max-width: 100%;
+  }
+  .icons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .icons i {
+    margin-left: 10px;
+    color: #ffffff;
+  }
+  .title {
+    color: #ffffff;
+  }
