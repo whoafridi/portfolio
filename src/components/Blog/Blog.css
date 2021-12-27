@@ -1,0 +1,8 @@
+.card-group {
+  background-color: #ffffff;
+  border: 10px whitesmoke;
+  box-shadow: 10px 15px 10px whitesmoke;
+  border: 15px whitesmoke;
+  box-shadow: 15px 20px 15px whitesmoke;
+  border-radius: 15px 10px;
+}
