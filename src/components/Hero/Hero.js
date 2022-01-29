@@ -1,100 +1,13 @@
 import React from "react";
 import { Typewriter } from "react-simple-typewriter";
-import Particles from "react-tsparticles";
 import img from "../../images/hero.svg";
 import "./Hero.css";
 
 export default function Hero() {
-  const particlesInit = (main) => {
-    console.log(main);
 
-    // you can initialize the tsParticles instance (main) here, adding custom shapes or presets
-  };
-
-  const particlesLoaded = (container) => {
-    console.log(container);
-  };
   return (
     <>
       <div className="container mt-3" id="home">
-        <Particles
-          id="tsparticles"
-          init={particlesInit}
-          loaded={particlesLoaded}
-          options={{
-            fpsLimit: 60,
-            interactivity: {
-              events: {
-                onClick: {
-                  enable: true,
-                  mode: "push",
-                },
-                onHover: {
-                  enable: true,
-                  mode: "repulse",
-                },
-                resize: true,
-              },
-              modes: {
-                bubble: {
-                  distance: 400,
-                  duration: 2,
-                  opacity: 0.8,
-                  size: 40,
-                },
-                push: {
-                  quantity: 4,
-                },
-                repulse: {
-                  distance: 200,
-                  duration: 0.4,
-                },
-              },
-            },
-            particles: {
-              color: {
-                value: "black",
-              },
-              links: {
-                color: "#ffffff",
-                distance: 150,
-                enable: true,
-                opacity: 0.5,
-                width: 2,
-              },
-              collisions: {
-                enable: true,
-              },
-              move: {
-                direction: "none",
-                enable: true,
-                outMode: "bounce",
-                random: false,
-                speed: 6,
-                straight: false,
-              },
-              number: {
-                density: {
-                  enable: true,
-                  value_area: 800,
-                },
-                value: 80,
-              },
-              opacity: {
-                value: 0.5,
-              },
-              shape: {
-                type: "circle",
-              },
-              size: {
-                random: true,
-                value: 5,
-              },
-            },
-            detectRetina: true,
-          }}
-        />
-
         <div className="row text-start align-items-center">
           <div className="col-lg-6 col-md-6 col-sm-12">
             <h1 className="header h1 mt-10 fw-bold">Hi there,</h1>
@@ -111,16 +24,16 @@ export default function Hero() {
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={[
-                    "Junior Odoo developer ",
-                    "Python developer",
+                    "MERN stack developer ",
                     "Front end developer ",
+                    "Python developer",
                     "React developer",
                   ]}
                   loop={100}
                   cursor
                   cursorStyle="..."
                   typeSpeed={70}
-                  deleteSpeed={50}
+                  deleteSpeed={60}
                   delaySpeed={1000}
                 />
               </span>
@@ -136,8 +49,10 @@ export default function Hero() {
               <a
                 className="header-btn"
                 href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view"
-                target="_blank" data-aos="zoom-in-right" data-aos-easing="ease-out-cubic"
-                data-aos-duration="2000"
+                target="_blank" 
+                  data-aos="zoom-in-right" 
+                  data-aos-easing="ease-out-cubic"
+                  data-aos-duration="2000"
               >
                 Download resume
               </a>
@@ -145,9 +60,9 @@ export default function Hero() {
           </div>
           <div
             className="col-lg-6 col-md-6 col-sm-12"
-            data-aos="fade-up-left"
-            data-aos-easing="ease-out-cubic"
-            data-aos-duration="2000"
+              data-aos="fade-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="2000"
           >
             <img className="img-fluid" src={img} alt="hero-icon" />
           </div>

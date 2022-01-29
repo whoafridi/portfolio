@@ -20,9 +20,11 @@ export default function Project() {
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
           <div class="card h-150 card-group" >
-            <img src={p} class="card-img-top" alt="..."  data-aos="fade-right"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"/>
+            <img src={p} class="card-img-top" alt="..."  
+              data-aos="fade-right"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            />
             <div class="card-body">
               <h5 class="card-title fw-bold">Food Network</h5>
               <div class="row">
@@ -97,9 +99,11 @@ export default function Project() {
         </div>
         <div class="col">
           <div class="card h-150 card-group">
-            <img src={p2} class="card-img-top" alt="projects" data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"/>
+            <img src={p2} class="card-img-top" alt="projects" 
+              data-aos="fade-up"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            />
             <div class="card-body">
               <h5 class="card-title fw-bold">ProCourier services</h5>
               <div class="row">
@@ -180,9 +184,11 @@ export default function Project() {
         </div>
         <div class="col">
           <div class="card h-150 card-group">
-            <img src={p3} class="card-img-top" alt="..."  data-aos="fade-up-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000"/>
+            <img src={p3} class="card-img-top" alt="..."  
+              data-aos="fade-down"
+              data-aos-easing="ease-out-cubic"
+              data-aos-duration="1000"
+            />
             <div class="card-body">
               <h5 class="card-title fw-bold">ProDenti healthcare services</h5>
               <div class="row">
@@ -219,7 +225,8 @@ export default function Project() {
                           <img
                             src={ssdenti}
                             class="card-img-top img-fluid"
-                            alt="pro-denti"  data-aos="fade-left"
+                            alt="pro-denti"  
+                            data-aos="fade-down"
                             data-aos-easing="ease-out-cubic"
                             data-aos-duration="1000"
                           />

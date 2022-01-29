@@ -14,9 +14,11 @@ export default function Blog() {
       </h1>
       <div class="row row-cols-1 row-cols-md-3 g-4">
         <div class="col">
-          <div class="card card-group" data-aos="fade-down"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
+          <div class="card card-group" 
+            data-aos="fade-right"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+        >
             <div class="card-body text-center">
               <h5 class="card-title fw-bold">গিটহাব ফাইন্ডার পর্ব-১</h5>
               <h6 class="card-subtitle mb-2 text-muted">
@@ -37,9 +39,11 @@ export default function Blog() {
           </div>
         </div>
         <div class="col">
-          <div class="card card-group" data-aos="fade-up"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
+          <div class="card card-group" 
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div class="card-body text-center">
               <h5 class="card-title fw-bold">পাইথন দিয়ে একটুখানি গেম</h5>
               <h6 class="card-subtitle mb-2 text-muted">গেম কি ?</h6>
@@ -58,9 +62,11 @@ export default function Blog() {
           </div>
         </div>
         <div class="col">
-          <div class="card card-group" data-aos="fade-left"
-        data-aos-easing="ease-out-cubic"
-        data-aos-duration="1000">
+          <div class="card card-group" 
+            data-aos="fade-down"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="1000"
+          >
             <div class="card-body text-center">
               <h5 class="card-title fw-bold">NAT কি ? খায় না মাথায় দেয়</h5>
               <h6 class="card-subtitle mb-2 text-muted">NAT কি ?</h6>
