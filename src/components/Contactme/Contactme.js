@@ -23,7 +23,7 @@ export default function Contactme() {
         <div className="col-lg-6 col-md-6 col-sm-12">
           <form className="row g-3">
             <div className="col-12">
-              <label for="inputEmail4" className="form-label ms-1">
+              <label htmlFor="inputEmail4" className="form-label ms-1">
                 Name
               </label>
               <input
@@ -34,7 +34,7 @@ export default function Contactme() {
               />
             </div>
             <div className="col-12">
-              <label for="inputEmail4" className="form-label ms-1">
+              <label htmlFor="inputEmail4" className="form-label ms-1">
                 Email
               </label>
               <input
@@ -45,7 +45,7 @@ export default function Contactme() {
               />
             </div>
             <div className="col-12">
-              <label for="inputState" className="form-label ms-1">
+              <label htmlFor="inputState" className="form-label ms-1">
                 Message
               </label>
               <textarea

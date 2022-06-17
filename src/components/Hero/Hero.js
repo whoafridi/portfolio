@@ -49,7 +49,7 @@ export default function Hero() {
               <a
                 className="header-btn"
                 href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view"
-                target="_blank" 
+                target="_blank" rel="noreferrer" 
                   data-aos="zoom-in-right" 
                   data-aos-easing="ease-out-cubic"
                   data-aos-duration="2000"
@@ -58,7 +58,7 @@ export default function Hero() {
               </a>
             </button>
           </div>
-          <div
+          <div id="hero-img"
             className="col-lg-6 col-md-6 col-sm-12"
               data-aos="fade-up"
               data-aos-easing="ease-out-cubic"

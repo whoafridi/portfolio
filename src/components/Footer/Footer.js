@@ -1,86 +1,93 @@
 import "./Footer.css";
+import ScrollToTop from "react-scroll-to-top";
 
 const Footer = () => {
   return (
-    <div class="container mt-5 footer">
-      <div class="row">
-        <div class="col-md-4 mt-5 col-sm-12 text-center ">
-          <h3 class="title fw-bold">Rafi</h3>
-          <p class="title fw-bold">66/1 - D, Baulghat, Dhaka </p>
-          <p class="title fw-bold">Dhaka Cantonment, Dhaka-1206</p>
-          <p class="title fw-bold">Hotline: +880-185030138</p>
+    <div className="container mt-5 footer">
+      <ScrollToTop
+        smooth
+        top="600"
+        viewBox="0 0 15 15"
+        svgPath="M8 15a.5.5 0 0 0 .5-.5V2.707l3.146 3.147a.5.5 0 0 0 .708-.708l-4-4a.5.5 0 0 0-.708 0l-4 4a.5.5 0 1 0 .708.708L7.5 2.707V14.5a.5.5 0 0 0 .5.5z"
+      />
+      <div className="row">
+        <div className="col-md-4 mt-5 col-sm-12 text-center ">
+          <h3 className="title fw-bold">Rafi</h3>
+          <p className="title fw-bold">245/4, West Manikdi, AL-Rayyan Bhaban</p>
+          <p className="title fw-bold">Dhaka Cantonment, Dhaka-1206</p>
+          <p className="title fw-bold">Hotline: +880-185030138</p>
         </div>
-        <div class="col-md-4 mt-5 col-sm-12">
-          <h3 class="text-center fw-bold title mb-4 ">
-            Subscribe to our newsletter
+        <div className="col-md-4 mt-5 col-sm-12">
+          <h3 className="text-center fw-bold title mb-4 ">
+            Subscribe to my newsletter
           </h3>
-          <form class="row">
-            <div class="col">
+          <form className="row">
+            <div className="col">
               <input
                 type="email"
-                class="form-control rounded-pill"
+                className="form-control rounded-pill"
                 id="inputEmail4"
                 placeholder="enter your email"
               />
             </div>
-            <div class="col-auto">
+            <div className="col-auto">
               <button
                 type="submit"
-                class="btn btn-primary header-btn rounded-pill"
+                className="btn btn-primary header-btn rounded-pill footer"
               >
                 Submit
               </button>
             </div>
           </form>
         </div>
-        <div class="col-md-4 mt-5 col-sm-12">
-          <h3 class="text-center fw-bold title">Follow social network</h3>
-          <div class="icons">
-            <h1></h1>
+        <div className="col-md-4 mt-5 col-sm-12">
+          <h3 className="text-center fw-bold title">Follow social network</h3>
+          <div className="icons">
 
             <h1>
               <a
                 href="https://www.facebook.com/whoafridi/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="500"
               >
-                <i class="bx bxl-facebook-circle"></i>{" "}
+                <i className="bx bxl-facebook-circle"></i>{" "}
               </a>{" "}
             </h1>
             <h1>
               <a
                 href="https://www.linkedin.com/in/whoafridi/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="500"
               >
-                <i class="bx bxl-linkedin"></i>{" "}
+                <i className="bx bxl-linkedin"></i>{" "}
               </a>{" "}
             </h1>
             <h1>
               <a
                 href="https://twitter.com/whoafridi/"
-                target="_blank"
+                target="_blank" rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
                 data-aos-duration="500"
               >
-                <i class="bx bxl-twitter"></i>{" "}
+                <i className="bx bxl-twitter"></i>{" "}
               </a>{" "}
             </h1>
           </div>
         </div>
       </div>
-      <div class="row">
-        <div class="col">
-          <p class="text-center title fw-bold">
-            Copyright © 2021 @Rafi - All Rights Reserved.
+      <hr></hr>
+      <div className="row">
+        <div className="col">
+          <p className="text-center title fw-bolder">
+            Copyright © 2022 - Made by Rafi - All Rights Reserved.
           </p>
         </div>
       </div>
