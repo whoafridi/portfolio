@@ -1,5 +1,5 @@
-import React from "react";
 import contact from "../../images/contact.png";
+
 export default function Contactme() {
   return (
     <div className="container mt-4 mb-2" id="contactme">
@@ -27,7 +27,7 @@ export default function Contactme() {
                 Name
               </label>
               <input
-                type="email"
+                type="text"
                 className="form-control rounded-pill"
                 id="inputEmail4"
                 placeholder="enter your name"

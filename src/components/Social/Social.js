@@ -16,9 +16,8 @@ export default function Social() {
             className="modal-a"
             href="https://www.facebook.com/whoafridi/"
             target="_blank" rel="noreferrer"
-            data-aos="fade-right"
-            data-aos-offset="300"
-            data-aos-easing="ease-in-sine"
+            data-aos="fade-up"
+            data-aos-anchor-placement="bottom-bottom"
           >
             {" "}
             <img className=" ps-3 img" src={fb} alt="" />

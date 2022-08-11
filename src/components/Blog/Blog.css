@@ -18,3 +18,18 @@ a.blog-btn{
   padding-bottom: 8px;
   border-radius: 15px;
 }
+.my-swiper{
+  width: 60%;
+}
+.swiper-wrapper{
+  margin-bottom: 2.8rem;
+}
+
+@media screen and (max-width: 760px){
+  .my-swiper{
+    width: 90%;
+  }
+  .swiper-wrapper{
+    margin-bottom: 1.8rem;
+  }
+}
