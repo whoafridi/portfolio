@@ -1,0 +1,25 @@
+.tools-section {
+    width: 100%;
+    padding-top: 3.5em;
+  }
+  
+  .tools-text {
+    color: #666;
+    line-height: 1.5em;
+  }
+  .tools-name {
+    color: #444444;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5;
+    margin-top: 0.8em;
+  }
+  .logo-figma {
+    width: 5em;
+    height: 5em;
+  }
+  .logo-firebase {
+    width: 5em;
+    height: 5em;
+  }
+  

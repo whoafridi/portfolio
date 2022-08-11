@@ -4,7 +4,6 @@ import img from "../../images/hero.svg";
 import "./Hero.css";
 
 export default function Hero() {
-
   return (
     <>
       <div className="container mt-3" id="home">
@@ -18,7 +17,7 @@ export default function Hero() {
                 style={{
                   color: "#081158",
                   fontWeight: "bold",
-                  fontSize: "25px",
+                  fontSize: "20px",
                 }}
               >
                 {/* Style will be inherited from the parent element */}
@@ -49,20 +48,22 @@ export default function Hero() {
               <a
                 className="header-btn"
                 href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view"
-                target="_blank" rel="noreferrer" 
-                  data-aos="zoom-in-right" 
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="2000"
+                target="_blank"
+                rel="noreferrer"
+                data-aos="zoom-in-right"
+                data-aos-easing="ease-out-cubic"
+                data-aos-duration="2000"
               >
                 Download resume
               </a>
             </button>
           </div>
-          <div id="hero-img"
+          <div
+            id="hero-img"
             className="col-lg-6 col-md-6 col-sm-12"
-              data-aos="fade-up"
-              data-aos-easing="ease-out-cubic"
-              data-aos-duration="2000"
+            data-aos="fade-up"
+            data-aos-easing="ease-out-cubic"
+            data-aos-duration="2000"
           >
             <img className="img-fluid" src={img} alt="hero-icon" />
           </div>

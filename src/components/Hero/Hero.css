@@ -1,5 +1,5 @@
 .header-p {
-  font-size: 25px;
+  font-size: 20px;
   color: rgba(0, 0, 0, 0.55);
 }
 .header {
@@ -9,8 +9,17 @@
   color: white;
   text-decoration: none;
 }
+.header__typewritter{
+  color: "#081158";
+                font-weight: "bold";
+                font-size: "25px";
+}
 @media only screen and (max-width: 768px){
   #hero-img{
     display: none;
+  }
+  
+  .header-p {
+    font-size: 20px;
   }
 }

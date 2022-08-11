@@ -8,6 +8,7 @@ import Hero from "./components/Hero/Hero";
 import Project from "./components/Project/Project";
 import Social from './components/Social/Social';
 import Technology from "./components/Technology/Technology";
+import Tools from './components/Tools/Tools';
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
         <Aboutme/>
         <Project/>
         <Technology/>
+        <Tools/>
         <Blog/>
         <Contactme/>
         <Footer/>
