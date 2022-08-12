@@ -2,3 +2,6 @@
   color: white;
   text-decoration: none;
 }
+Button:hover{
+  color: transparent;
+}

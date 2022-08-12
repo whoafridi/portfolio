@@ -7,6 +7,7 @@ import sspro from "../../images/projects/courier.png";
 import pro from "../../images/projects/sscourier.png";
 import watch from "../../images/projects/watch.png";
 import sswatch from "../../images/projects/sswatch.png";
+import { Button } from "react-bootstrap";
 
 const projects = [
   {
@@ -55,6 +56,13 @@ export default function Project() {
       >
         Projects
       </h1>
+      <div className="d-flex justify-content-center align-items-center mt-3 mb-5">
+        <Button className="me-3 btn-dark rounded-pill">All</Button>
+        <Button className="me-3 btn-dark rounded-pill">Web Design</Button>
+        <Button className="me-3 btn-dark rounded-pill">React</Button>
+        <Button className="me-3 btn-dark rounded-pill">MERN</Button>
+        <Button className="me-3 btn-dark rounded-pill">Others</Button>
+      </div>
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {projects.map(({ img, title, tech, bg, id }) => {
           console.log(`hello ${id}`);
