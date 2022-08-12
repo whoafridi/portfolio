@@ -9,11 +9,13 @@ import Project from "./components/Project/Project";
 import Social from './components/Social/Social';
 import Technology from "./components/Technology/Technology";
 import Tools from './components/Tools/Tools';
+import Nav from './components/nav/Navigation';
 
 function App() {
   return (
     <div className="app">
         <Header/>
+        {/* <Nav/> */}
         <Hero/>
         <Social/>
         <Aboutme/>
