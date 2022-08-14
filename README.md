@@ -1,1 +1,1 @@
-A simple portfoilo using React js. https://rafi-dev.netlify.app/
+A simple react-redux practice repository.
