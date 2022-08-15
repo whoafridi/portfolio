@@ -2,7 +2,7 @@ import React from 'react'
 
 export default function Technology() {
     return (
-      <div className="container mt-5 mb-3" id="technologies">
+      <div className="container mt-5 mb-3" id="technology">
       <h1 className="header text-center h1 fw-bold"  data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000">Technology stack</h1>

@@ -14,6 +14,22 @@
                 font-weight: "bold";
                 font-size: "25px";
 }
+
+/* .header{
+  background: -webkit-linear-gradient(315deg,#42d392 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} */
+
+
+.header{
+  background: -webkit-linear-gradient(315deg,rgb(8, 17, 88) 25%,#647eff);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+} 
+
 @media only screen and (max-width: 768px){
   #hero-img{
     display: none;

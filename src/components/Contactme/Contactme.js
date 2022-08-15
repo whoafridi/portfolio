@@ -19,7 +19,7 @@ export default function Contactme() {
   };
 
   return (
-    <div className="container mt-4 mb-2" id="contactme">
+    <div className="container mt-4 mb-2" id="contact">
       <h1
         className="header text-center h1 fw-bold"
         data-aos="fade-up"

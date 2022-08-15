@@ -3,8 +3,8 @@ export default function Header() {
     <div className="container">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container-fluid">
-          <a className="navbar-brand fw-bold" href="/#">
-            Rafi
+          <a className="navbar-brand fw-bold header" href="/">
+            Rafiuzzaman
           </a>
           <button
             className="navbar-toggler"
@@ -22,19 +22,19 @@ export default function Header() {
             id="navbarNavAltMarkup"
           >
             <div className="navbar-nav align-items-center">
-              <a className="nav-link" aria-current="page" href="#home">
+              <a className="nav-link" aria-current="page" href="/#home">
                 Home
               </a>
-              <a className="nav-link" href="#projects">
+              <a className="nav-link" href="/#projects">
                 Projects
               </a>
-              <a className="nav-link" href="#technologies">
+              <a className="nav-link" href="/#technology">
                 Technology
               </a>
-              <a className="nav-link" href="#blogs">
+              <a className="nav-link" href="/#blogs">
                 Blogs
               </a>
-              <a className="nav-link" href="#aboutme">
+              <a className="nav-link" href="/#aboutme">
                 About me
               </a>
             </div>

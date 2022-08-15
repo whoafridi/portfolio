@@ -23,10 +23,10 @@ export default function Hero() {
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={[
-                    "MERN stack developer ",
-                    "Front end developer ",
-                    "Python developer",
+                    "Front end developer",
+                    "Web designer",
                     "React developer",
+                    "MERN stack developer ",
                   ]}
                   loop={100}
                   cursor
@@ -47,7 +47,7 @@ export default function Hero() {
             >
               <a
                 className="header-btn"
-                href="https://drive.google.com/file/d/1zT1Bb44Gk2_VzZCy_i1Kpg-zzy6WdOOU/view"
+                href="https://drive.google.com/file/d/1LkQK03uhjPy5wjZLAPc99ZP_m9Hqhbxp/view"
                 target="_blank"
                 rel="noreferrer"
                 data-aos="zoom-in-right"
