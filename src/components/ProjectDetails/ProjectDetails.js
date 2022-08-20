@@ -50,7 +50,7 @@ const ProjectDetails = () => {
           </Col>
           <Col xs={12} lg={5} md={12}>
             <div className="project-details">
-              <h3 className="project-name header">
+              <h3 className="project-name header fw-bold">
                 {selectedProject[0]?.projectName}
               </h3>
               <p className="industry">

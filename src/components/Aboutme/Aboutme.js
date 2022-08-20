@@ -32,7 +32,7 @@ export default function Aboutme() {
           <a href="#contact">
           <button
             type="button"
-            className="btn btn-dark  header-btn rounded-pill"
+            className="btn btn-dark  header-btn rounded-pill header-btn2"
           >
             Hire me
           </button>
@@ -41,7 +41,7 @@ export default function Aboutme() {
           <button
             type="button"
             id="#contact"
-            className="btn btn-dark  header-btn rounded-pill ms-2"
+            className="btn btn-dark  header-btn rounded-pill ms-2 header-btn2"
           >
             Contact me
           </button>

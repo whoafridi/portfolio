@@ -83,7 +83,7 @@ export default function Blog() {
                     href={url}
                     target="_blank"
                     rel="noreferrer"
-                    className="blog-btn mb-3 "
+                    className="blog-btn mb-3 header-btn2"
                   >
                     Read full
                   </a>

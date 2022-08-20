@@ -40,7 +40,7 @@ export default function Contactme() {
         <div className="col-lg-6 col-md-6 col-sm-12">
           <form className="row g-3" ref={form} onSubmit={sendEmail}>
             <div className="col-12">
-              <label htmlFor="inputEmail4" className="form-label ms-1">
+              <label htmlFor="inputEmail4" className="form-label ms-1 header">
                 Name
               </label>
               <input 
@@ -53,7 +53,7 @@ export default function Contactme() {
               />
             </div>
             <div className="col-12">
-              <label htmlFor="inputEmail4" className="form-label ms-1">
+              <label htmlFor="inputEmail4" className="form-label ms-1 header">
                 Email
               </label>
               <input
@@ -66,7 +66,7 @@ export default function Contactme() {
               />
             </div>
             <div className="col-12">
-              <label htmlFor="inputState" className="form-label ms-1">
+              <label htmlFor="inputState" className="form-label ms-1 header">
                 Message
               </label>
               <textarea
@@ -81,7 +81,7 @@ export default function Contactme() {
               <button
                 value="Send" 
                 type="submit"
-                className="btn btn-dark  header-btn rounded-pill"
+                className="btn btn-dark rounded-pill header-btn2"
               >
                 Submit
               </button>

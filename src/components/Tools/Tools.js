@@ -16,8 +16,8 @@ const Tools = () => {
     <section id="tools" className="tools-section text-center header">
       <Container>
         <div className="mb-5">
-          <h1 className="fw-bold header-tool">Tools</h1>
-          <p className="tools-text ">
+          <h1 className="fw-bold header">Tools</h1>
+          <p className="tools-text header">
             My weapons of choice to help tackle any project.
           </p>
         </div>

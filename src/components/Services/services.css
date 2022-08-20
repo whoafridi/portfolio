@@ -12,7 +12,7 @@
   }
   
   .service:hover {
-    background: transparent;
+    background: -webkit-linear-gradient(315deg, rgb(2, 8, 51) 25%, #1e3cd4);
     cursor: default;
   }
   
@@ -45,6 +45,14 @@
   .service__list p {
     font-size: 0.9rem;
   }
+
+.header {
+  background: -webkit-linear-gradient(315deg, rgb(8, 17, 88) 25%, #647eff);
+  background-clip: text ;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
   
   /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */
   @media screen and (max-width: 1200px) {

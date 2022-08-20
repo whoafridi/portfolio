@@ -43,7 +43,7 @@ export default function Hero() {
             </p>
             <button
               type="button"
-              className="btn btn-dark header-btn rounded-pill"
+              className="btn btn-dark header-btn2 rounded-pill "
             >
               <a
                 className="header-btn"

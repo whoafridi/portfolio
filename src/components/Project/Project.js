@@ -36,13 +36,13 @@ export default function Project() {
                   data-aos-duration="1000"
                 />
                 <div className="card-body">
-                  <h5 className="card-title fw-bold">{projectName}</h5>
+                  <h5 className="card-title fw-bold header">{projectName}</h5>
                   <div className="row">
                     <div className="col text-center">
                       <Link to={`/details/${id}`}>
                         <button
                           type="button"
-                          className="btn btn-dark rounded-pill"
+                          className="btn btn-dark rounded-pill header-btn2"
                         >
                           View details
                         </button>

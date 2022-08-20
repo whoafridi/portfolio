@@ -21,7 +21,7 @@ export default function Header() {
             className="collapse navbar-collapse justify-content-end"
             id="navbarNavAltMarkup"
           >
-            <div className="navbar-nav align-items-center">
+            <div className="navbar-nav align-items-center header">
               <a className="nav-link" aria-current="page" href="/#home">
                 Home
               </a>

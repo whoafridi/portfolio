@@ -5,10 +5,9 @@
 /portfolio
 /.pnp
 .pnp.js
-
+/src/data/fakedata.js
 # testing
 /coverage
-
 # production
 /build
 
