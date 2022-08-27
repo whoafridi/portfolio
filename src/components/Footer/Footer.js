@@ -1,5 +1,7 @@
 import "./Footer.css";
 import ScrollToTop from "react-scroll-to-top";
+import {BsFillTelephoneInboundFill} from 'react-icons/bs'
+import {IoMdMailOpen} from 'react-icons/io'
 
 const Footer = () => {
   return (
@@ -13,9 +15,10 @@ const Footer = () => {
       <div className="row">
         <div className="col-md-4 mt-5 col-sm-12 text-center ">
           <h3 className="title fw-bold">Rafi</h3>
-          <p className="title fw-bold">245/4, West Manikdi, AL-Rayyan Bhaban</p>
+          <p className="title fw-bold"> 245/4, West Manikdi, AL-Rayyan Bhaban</p>
           <p className="title fw-bold">Dhaka Cantonment, Dhaka-1206</p>
-          <p className="title fw-bold">Hotline: +880-1850730138</p>
+          <p className="title fw-bold"><IoMdMailOpen className="me-1"/> Email: afridirk10@gmail.com</p>
+          <p className="title fw-bold"><BsFillTelephoneInboundFill className="me-1"/> Hotline: +880-1850730138</p>
         </div>
         <div className="col-md-4 mt-5 col-sm-12">
           <h3 className="text-center fw-bold title mb-4 ">

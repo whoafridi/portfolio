@@ -1,7 +1,6 @@
-import React from "react";
-import { Typewriter } from "react-simple-typewriter";
-import img from "../../images/hero.svg";
 import "./Hero.css";
+import { Typewriter } from "react-simple-typewriter";
+import heroImg from "../../images/hero.svg";
 import {FiDownloadCloud} from 'react-icons/fi';
 
 export default function Hero() {
@@ -16,7 +15,7 @@ export default function Hero() {
               I'm a{" "}
               <span
                 style={{
-                  color: "#081158",
+                  color: "rgb(8,17,88)",
                   fontWeight: "bold",
                   fontSize: "20px",
                 }}
@@ -44,7 +43,7 @@ export default function Hero() {
             </p>
             <button
               type="button"
-              className="btn btn-dark header-btn2 rounded-pill "
+              className="btn btn-dark resume-btn rounded-pill "
             >
               <a
                 className="header-btn"
@@ -55,7 +54,7 @@ export default function Hero() {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
               >
-                Download resume <FiDownloadCloud/>
+                Download resume <FiDownloadCloud className="ms-1"/>
               </a>
             </button>
           </div>
@@ -66,7 +65,7 @@ export default function Hero() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <img className="img-fluid" src={img} alt="hero-icon" />
+            <img className="img-fluid w-100" src={heroImg} alt="hero-icon" />
           </div>
         </div>
       </div>

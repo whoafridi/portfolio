@@ -27,7 +27,8 @@ export default function Aboutme() {
             learning web development since 2020 Autumn. Before that I'm keen to
             develop some porjects for my hobby purpose. My actual journey of
             development comes from the programming hero. I am still learning the new technologies of
-            web development. My desire is to be a full stack web developer in next 2-3 years.
+            web development. My desire is to be a full stack web developer in next 2-3 years. <br></br>
+            In addition to web development, I enjoy reading books and articles about technology. 
           </p>
           <a href="#contact">
           <button

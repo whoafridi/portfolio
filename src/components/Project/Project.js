@@ -1,9 +1,9 @@
-import { useState, useEffect } from "react";
 import "./Project.css";
+import { useState, useEffect } from "react";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import projects from "../../data/projects";
-import {AiOutlineDoubleRight} from 'react-icons/ai';
+import { AiOutlineDoubleRight } from 'react-icons/ai';
 
 export default function Project() {
   const [allWorks, setAllWorks] = useState([]);
@@ -85,18 +85,20 @@ export default function Project() {
         </div>
       </div>
       <div className="row row-cols-1 row-cols-md-3 g-4">
-        {allWorks.slice(0,6).map(({ homePage, projectName, id }) => {
+        {allWorks.slice(0, 6).map(({ homePage, projectName, id }) => {
           return (
             <div className="col">
               <div className="card h-150 card-group">
+                <Link to={`/details/${id}`}>
                   <img
-                  src={homePage}
-                  className="card-img-top"
-                  alt={projectName}
-                  data-aos="fade-right"
-                  data-aos-easing="ease-out-cubic"
-                  data-aos-duration="1000"
-                />
+                    src={homePage}
+                    className="card-img-top"
+                    alt={projectName}
+                    data-aos="fade-right"
+                    data-aos-easing="ease-out-cubic"
+                    data-aos-duration="1000"
+                  />
+                </Link>
                 <div className="card-body">
                   <h5 className="card-title fw-bold header">{projectName}</h5>
                   <div className="row">
@@ -106,7 +108,7 @@ export default function Project() {
                           type="button"
                           className="btn btn-dark rounded-pill header-btn2"
                         >
-                          View details <AiOutlineDoubleRight/>
+                          View details <AiOutlineDoubleRight />
                         </button>
                       </Link>
                     </div>

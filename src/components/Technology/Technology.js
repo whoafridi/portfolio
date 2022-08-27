@@ -63,14 +63,15 @@ export default function Technology() {
                 data-aos="fade-right"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000"
+                className="header"
               >
                 <div className="text-center">
                   <img
                     className="img-fluid w-25"
                     src={img}
-                    alt="firebase-logo"
+                    alt={name}
                   />
-                  <h5 className="tools-name">{name}</h5>
+                  <h5 style={{ marginTop: "0.8em" }}>{name}</h5>
                 </div>
               </Col>
             )
