@@ -44,10 +44,10 @@ export default function Technology() {
   ]
 
   return (
-    <Container className="header" id="technology">
+    <Container className="header mt-5" id="technology">
       <div className="mb-5">
         <h1 className="fw-bold header text-center"
-          data-aos="fade-up"
+          data-aos="fade-up" 
           data-aos-easing="ease-out-cubic"
           data-aos-duration="1000"
         >Technology</h1>
@@ -57,9 +57,9 @@ export default function Technology() {
       </div>
       <Row xs={2} lg={4} className="gy-5 justify-content-center">
         {
-          tech?.map(({ name, img }) => {
+          tech?.map(({ id, name, img }) => {
             return (
-              <Col key={tech.id}
+              <Col key={id}
                 data-aos="fade-right"
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="1000"

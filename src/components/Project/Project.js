@@ -28,7 +28,7 @@ export default function Project() {
   };
 
   return (
-    <div className="container mt-3 mb-5" id="projects">
+    <div className="container mt-5 mb-5" id="projects">
       <h1
         className="header text-center h1 fw-bold"
         data-aos="fade-up"
@@ -87,7 +87,7 @@ export default function Project() {
       <div className="row row-cols-1 row-cols-md-3 g-4">
         {allWorks.slice(0, 6).map(({ homePage, projectName, id }) => {
           return (
-            <div className="col">
+            <div className="col" key={id}>
               <div className="card h-150 card-group">
                 <Link to={`/details/${id}`}>
                   <img
