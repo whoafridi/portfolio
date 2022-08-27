@@ -15,7 +15,7 @@ const Footer = () => {
           <h3 className="title fw-bold">Rafi</h3>
           <p className="title fw-bold">245/4, West Manikdi, AL-Rayyan Bhaban</p>
           <p className="title fw-bold">Dhaka Cantonment, Dhaka-1206</p>
-          <p className="title fw-bold">Hotline: +880-185030138</p>
+          <p className="title fw-bold">Hotline: +880-1850730138</p>
         </div>
         <div className="col-md-4 mt-5 col-sm-12">
           <h3 className="text-center fw-bold title mb-4 ">
@@ -43,11 +43,11 @@ const Footer = () => {
         <div className="col-md-4 mt-5 col-sm-12">
           <h3 className="text-center fw-bold title">Follow social network</h3>
           <div className="icons">
-
             <h1>
               <a
                 href="https://www.facebook.com/whoafridi/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
@@ -59,7 +59,8 @@ const Footer = () => {
             <h1>
               <a
                 href="https://www.linkedin.com/in/whoafridi/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"
@@ -71,7 +72,8 @@ const Footer = () => {
             <h1>
               <a
                 href="https://twitter.com/whoafridi/"
-                target="_blank" rel="noreferrer"
+                target="_blank"
+                rel="noreferrer"
                 data-aos="fade-left"
                 data-aos-anchor="#example-anchor"
                 data-aos-offset="500"

@@ -14,15 +14,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Will do pixel perfect web design.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Can replicate design from Figma, PSD to HTML.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Experience over 1+ years.</p>
             </li>
           </ul>
         </article>
@@ -33,15 +33,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Will do web developement.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Doing developement using MERN stack.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Lorem ipsum, dolor sit amet consectetur elit.</p>
+              <p>Done both frontend + backend developement.</p>
             </li>
           </ul>
         </article>
@@ -52,15 +52,15 @@ const Services = () => {
           <ul className="service__list">
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Working with frontend developement</p>
+              <p>Working with frontend developement.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Using React.js and other css libraries</p>
+              <p>Using React.js and other css libraries.</p>
             </li>
             <li>
               <BiCheck className="service__list-icon" />
-              <p>Build pixel perfect from UI design</p>
+              <p>Build pixel perfect from UI design.</p>
             </li>
           </ul>
         </article>
@@ -70,4 +70,3 @@ const Services = () => {
 };
 
 export default Services;
-

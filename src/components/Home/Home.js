@@ -7,7 +7,6 @@ import Services from "../Services/Services";
 import Social from "../Social/Social";
 import Technology from "../Technology/Technology";
 import Tools from "../Tools/Tools";
-import Portfolio from "../Portfolio/Portfolio";
 
 const Home = () => {
   return (
@@ -21,7 +20,6 @@ const Home = () => {
       <Tools />
       <Blog />
       <Contactme />
-      {/* <Portfolio/> */}
     </>
   );
 };

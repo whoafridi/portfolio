@@ -5,7 +5,13 @@
 /portfolio
 /.pnp
 .pnp.js
+
+# custom file for ignore
 /src/data/fakedata.js
+/src/components/Portfolio
+/src/components/Portfolio/Portfolio.js
+/src/components/Portfolio/Single.js
+
 # testing
 /coverage
 # production

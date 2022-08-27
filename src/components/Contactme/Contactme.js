@@ -10,7 +10,6 @@ export default function Contactme() {
     
     emailjs.sendForm('service_8rb9aas', 'template_acoq4d7', form.current, 'ZJElxHvv98PTVP8hh')
       .then((result) => {
-          console.log(result.text);
           alert("Mail sent successfully");
       }, (error) => {
           console.log(error.text);
@@ -48,7 +47,7 @@ export default function Contactme() {
                 type="text"
                 className="form-control rounded-pill"
                 id="inputEmail4"
-                placeholder="enter your name"
+                placeholder="Enter your name"
                 name="name"
               />
             </div>
@@ -61,7 +60,7 @@ export default function Contactme() {
                 type="email"
                 className="form-control rounded-pill"
                 id="inputEmail4"
-                placeholder="enter your email"
+                placeholder="Enter your email"
                 name="email"
               />
             </div>
@@ -73,7 +72,7 @@ export default function Contactme() {
                 required
                 className="form-control rounded-pill"
                 aria-label="With textarea"
-                placeholder="enter your messages (if any)"
+                placeholder="Enter your message"
                 name="message"
               ></textarea>
             </div>
