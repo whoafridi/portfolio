@@ -2,6 +2,7 @@ import "./Project.css";
 import { Button } from "react-bootstrap";
 import { Link } from "react-router-dom";
 import projects from "../../data/projects";
+import {AiOutlineDoubleRight} from 'react-icons/ai';
 
 export default function Project() {
   return (
@@ -44,7 +45,7 @@ export default function Project() {
                           type="button"
                           className="btn btn-dark rounded-pill header-btn2"
                         >
-                          View details
+                          View details <AiOutlineDoubleRight/>
                         </button>
                       </Link>
                     </div>

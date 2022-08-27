@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { Container, Nav, Row } from "react-bootstrap";
-import AllProjects from "../../data/fakedata";
+import AllProjects from "../../data/projects";
 import SingleWork from "./Single";
 
 const Portfolio = () => {

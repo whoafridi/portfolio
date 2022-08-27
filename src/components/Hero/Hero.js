@@ -2,6 +2,7 @@ import React from "react";
 import { Typewriter } from "react-simple-typewriter";
 import img from "../../images/hero.svg";
 import "./Hero.css";
+import {FiDownloadCloud} from 'react-icons/fi';
 
 export default function Hero() {
   return (
@@ -54,7 +55,7 @@ export default function Hero() {
                 data-aos-easing="ease-out-cubic"
                 data-aos-duration="2000"
               >
-                Download resume
+                Download resume <FiDownloadCloud/>
               </a>
             </button>
           </div>
