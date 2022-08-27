@@ -1,8 +1,8 @@
 export default function Header() {
   return (
-    <div className="container">
+    <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-light">
-        <div className="container-fluid">
+        <div className="container">
           <a className="navbar-brand fw-bold header" href="/">
             Rafiuzzaman
           </a>

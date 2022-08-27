@@ -2,6 +2,8 @@ const projects = [
   {
     id: 1,
     projectName: "Pro-denti",
+    category: "full-stack",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184550937-fe520a88-d2e1-47b9-8063-7e6527c81ae6.png",
     websiteIndustry: "Health-care",
@@ -34,6 +36,8 @@ const projects = [
   {
     id: 5,
     projectName: "Responsive football",
+    category: "landing-page",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184551274-e86f73bd-bd6e-452c-832a-acee2a591a31.png",
     websiteIndustry: "Sports",
@@ -49,6 +53,8 @@ const projects = [
   {
     id: 6,
     projectName: "Bike Landing page",
+    category: "landing-page",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184551399-343afc59-61eb-49d8-92b5-55b2112bcae7.png",
     websiteIndustry: "Motor-cycle",
@@ -64,6 +70,8 @@ const projects = [
   {
     id: 2,
     projectName: "watchCommerce",
+    category: "full-stack",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184550947-2ba43e86-16f2-4c2b-ae51-7bea08e2acb2.png",
     websiteIndustry: "E-commerce",
@@ -97,6 +105,8 @@ const projects = [
   {
     id: 3,
     projectName: "Food network",
+    category: "landing-page",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184551178-59e29942-7438-491b-a02e-c39263655585.png",
     websiteIndustry: "Food",
@@ -112,6 +122,8 @@ const projects = [
   {
     id: 4,
     projectName: "Pro-courier",
+    category: "full-stack",
+    status: "featured",
     homePage:
       "https://user-images.githubusercontent.com/35966401/184550931-c1692032-e16e-4a91-98be-162cdf3d49e0.png",
     websiteIndustry: "Courier",
@@ -138,6 +150,155 @@ const projects = [
       "https://user-images.githubusercontent.com/35966401/184589620-50cab648-fcc4-48e0-8d07-82cadf68b9d9.png",
       "https://user-images.githubusercontent.com/35966401/184589630-a6e32162-8a16-48b7-b919-1c05448d6e06.png",
     ],
+  },
+  {
+    id: 7,
+    projectName: "Weather app",
+    category: "front-end",
+    status: "common",
+    homePage:
+      "https://user-images.githubusercontent.com/35966401/162247576-67961fff-5c48-4a8c-9b73-4f754f9b2b14.png",
+    websiteIndustry: "Weather",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/weather-app",
+    gitServerSide: "",
+    techonologies: ["React", "Typescript", "Material-UI", "Git and GitHub"],
+    description: "weather app using typescript",
+    images: [],
+  },
+  {
+    id: 8,
+    projectName: "Github-user finder",
+    category: "front-end",
+    status: "common",
+    homePage:
+      "https://raw.githubusercontent.com/whoafridi/Play-with-JavaScript/master/github_finder/images/github_desktop.png",
+    websiteIndustry: "github",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/Github-user-finder",
+    gitServerSide: "",
+    techonologies: ["React", "Typescript", "bootstrap 5", "Git and GitHub"],
+    description: "Github user finder - A github user finder using typescript",
+    images: [],
+  },
+  {
+    id: 9,
+    projectName: "Online-pizza shop",
+    category: "full-stack",
+    status: "common",
+    homePage:
+      "https://user-images.githubusercontent.com/35966401/186608854-84ee3eef-080a-4546-97c2-5f99c6677ef6.png",
+    websiteIndustry: "pizza shop",
+    websiteLink: "https://1pizza-shop.netlify.app/",
+    gitClientSide: "https://github.com/whoafridi/online-pizza-shop",
+    gitServerSide: "",
+    techonologies: [
+      "React.js",
+      "Redux",
+      "Node.js",
+      "Express.js",
+      "MongoDB",
+      "Payment (stripe)",
+    ],
+    description: "A online pizza delivery shop for order & deliver pizza.",
+    images: [
+      "https://user-images.githubusercontent.com/35966401/186609158-7cd9d31e-0cb7-4583-966c-e40ea7a5f195.png",
+    ],
+  },
+  {
+    id: 10,
+    projectName: "Book archive",
+    category: "others",
+    status: "common",
+    homePage:
+      "https://user-images.githubusercontent.com/35966401/186629516-1c2e1a7f-d24c-4f29-bab3-cfb8164d04ff.png",
+    websiteIndustry: "others",
+    websiteLink: "https://api-book.netlify.app/",
+    gitClientSide: "https://github.com/whoafridi/book-archive",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3", "Javascript"],
+    description: "book-archive - book search API using javascript",
+    images: [
+      "https://user-images.githubusercontent.com/35966401/186629516-1c2e1a7f-d24c-4f29-bab3-cfb8164d04ff.png",
+    ],
+  },
+  {
+    id: 11,
+    projectName: "Money master",
+    category: "others",
+    status: "common",
+    homePage:
+      "https://user-images.githubusercontent.com/35966401/186618684-17addb52-efea-4794-bb5d-1b90da534fc7.png",
+    websiteIndustry: "others",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/Play-with-JavaScript/tree/master/money-master-js",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3", "Javascript"],
+    description: "money master an web app for manage daily expenses",
+    images: [
+      "https://user-images.githubusercontent.com/35966401/186617972-0af447ab-006a-46f3-8c1f-39aeed23ebb2.png",
+    ],
+  },
+  {
+    id: 12,
+    projectName: "Study shine",
+    category: "landing-page",
+    status: "common",
+    homePage:
+      "https://user-images.githubusercontent.com/35966401/186620318-87696fe8-70a2-47eb-aef7-c1ff644f07a5.png",
+    websiteIndustry: "",
+    websiteLink: "",
+    gitClientSide:
+      "https://github.com/whoafridi/Play-with-JavaScript/tree/master/Study-Shine",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3", "Bootstrap 5"],
+    description:
+      "study shine is a landing page for study related maerials & courses.",
+    images: [
+      "https://user-images.githubusercontent.com/35966401/186620724-950bdec2-656c-424e-a2d4-6e1259098d4a.png",
+    ],
+  },
+  {
+    id: 13,
+    projectName: "IMDB clone",
+    category: "landing-page",
+    status: "common",
+    homePage: "https://user-images.githubusercontent.com/35966401/186867809-47bf2f88-36bb-4e91-848f-37018be0f3d1.png",
+    websiteIndustry: "other",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/Play-with-JavaScript/tree/master/imdb-clone-html-css",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3"],
+    description: "a landing page for IMDB website front page",
+    images: ["https://user-images.githubusercontent.com/35966401/186867837-a63f9782-801c-4914-ad5f-faa11c0ef4a4.png"],
+  },
+  {
+    id: 14,
+    projectName: "Convention center",
+    category: "landing-page",
+    status: "common",
+    homePage: "https://user-images.githubusercontent.com/35966401/186861029-7b9921b9-bd34-4c1c-a5c8-9c71c6eaf60d.png",
+    websiteIndustry: "other",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/Play-with-JavaScript/tree/master/Convention-Center",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3", "Bootstrap 5"],
+    description: "a landing page for convention center",
+    images: ["https://user-images.githubusercontent.com/35966401/186860946-bae9685f-f69f-46f1-8f31-c5da02a999be.png"],
+  },
+  {
+    id: 15,
+    projectName: "Donate today",
+    category: "landing-page",
+    status: "common",
+    homePage: "https://user-images.githubusercontent.com/35966401/186867187-e86f1374-d3f0-4fa8-83c4-09b88d26e8ed.png",
+    websiteIndustry: "other",
+    websiteLink: "",
+    gitClientSide: "https://github.com/whoafridi/Play-with-JavaScript/tree/master/donate-today",
+    gitServerSide: "",
+    techonologies: ["HTML5", "CSS3"],
+    description: "a landing page for donation based website",
+    images: ['https://user-images.githubusercontent.com/35966401/186867162-c65ee668-14b8-4003-8bb4-561aa5279d90.png'],
   },
 ];
 
