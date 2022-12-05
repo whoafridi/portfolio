@@ -32,4 +32,11 @@ a.blog-btn{
   .swiper-wrapper{
     margin-bottom: 1.8rem;
   }
+
+  .swiper-horizontal > .swiper-pagination-bullets, .swiper-pagination-bullets.swiper-pagination-horizontal, .swiper-pagination-custom, .swiper-pagination-fraction {
+    bottom: -3px !important;
+    left: 0;
+    width: 100%;
+  }
+  
 }

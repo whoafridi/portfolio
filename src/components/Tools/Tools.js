@@ -63,7 +63,7 @@ const Tools = () => {
               <img
                 className="img-fluid logo-firebase"
                 src={firebaseLogo}
-                alt="firebase-logo"
+                alt="rafiuzzaman bhuiyan-firebase-logo"
               />
               <h5 className="tools-name">Firebase</h5>
             </div>

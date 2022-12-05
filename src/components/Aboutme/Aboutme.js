@@ -19,7 +19,7 @@ export default function Aboutme() {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <img className="img-fluid" src={img} alt="aboutme-icon" />
+          <img className="img-fluid" src={img} alt="rafiuzzaman bhuiyan-aboutme-icon" />
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
           <p className="header">
@@ -33,7 +33,7 @@ export default function Aboutme() {
           <a href="#contact">
           <button
             type="button"
-            className="btn btn-dark  header-btn rounded-pill header-btn2"
+            className="border-0 header-btn rounded-pill header-btn2"
           >
             Hire me
           </button>
@@ -42,7 +42,7 @@ export default function Aboutme() {
           <button
             type="button"
             id="#contact"
-            className="btn btn-dark  header-btn rounded-pill ms-2 header-btn2"
+            className="border-0 rounded-pill ms-2 header-btn2"
           >
             Contact me
           </button>

@@ -2,12 +2,16 @@
 
 # dependencies
 /node_modules
-/portfolio
 /.pnp
 .pnp.js
+/src/data
 
+/src/images
+# /src/data/fakedata.js
 # custom file for ignore
-/src/data/fakedata.js
+
+# /src/data/projects.js
+
 /src/components/Portfolio
 /src/components/Portfolio/Portfolio.js
 /src/components/Portfolio/Single.js

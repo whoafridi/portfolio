@@ -20,7 +20,7 @@ export default function Social() {
             data-aos-anchor-placement="bottom-bottom"
           >
             {" "}
-            <img className=" ps-3 img" src={fb} alt="" />
+            <img className=" ps-3 img" src={fb} alt="rafiuzzaman bhuiyan-" />
           </a>
           <a
             className="modal-a"
@@ -30,7 +30,7 @@ export default function Social() {
             data-aos-anchor-placement="bottom-bottom"
           >
             {" "}
-            <img className="ps-2 img" src={linkedin} alt="" />{" "}
+            <img className="ps-2 img" src={linkedin} alt="rafiuzzaman bhuiyan-" />{" "}
           </a>
           <a
             className="modal-a"
@@ -40,7 +40,7 @@ export default function Social() {
             data-aos-anchor-placement="bottom-bottom"
           >
             {" "}
-            <img className="ps-2 img" src={twitter} alt="" />
+            <img className="ps-2 img" src={twitter} alt="rafiuzzaman bhuiyan-" />
           </a>
           <a
             className="modal-a"
@@ -50,7 +50,7 @@ export default function Social() {
             data-aos-anchor-placement="bottom-bottom"
           >
             {" "}
-            <img className="w-auto ps-2 img" src={instagram} alt="" />
+            <img className="w-auto ps-2 img" src={instagram} alt="rafiuzzaman bhuiyan-" />
           </a>
           <a
             className="modal-a"
@@ -59,7 +59,7 @@ export default function Social() {
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <img className="ps-2 img" src={github} alt="" />
+            <img className="ps-2 img" src={github} alt="rafiuzzaman bhuiyan-" />
           </a>
           <a
             className="modal-a"
@@ -68,7 +68,7 @@ export default function Social() {
             data-aos="fade-up"
             data-aos-anchor-placement="bottom-bottom"
           >
-            <img className="ps-2 img " src={skype} alt="" />
+            <img className="ps-2 img " src={skype} alt="rafiuzzaman bhuiyan-" />
           </a>
           <a
             className="modal-a"
@@ -79,7 +79,7 @@ export default function Social() {
             data-aos-offset="500"
             data-aos-duration="500"
           >
-            <img className="ps-2 img" src={youtube} alt="" />
+            <img className="ps-2 img" src={youtube} alt="rafiuzzaman bhuiyan-" />
           </a>
         </div>
       </div>

@@ -2,6 +2,42 @@
   color: white;
   text-decoration: none;
 }
-Button:hover{
+
+Button:hover {
   color: transparent;
+}
+
+/* scrool on image hover */
+.portfolio {
+  width: 100%;
+  margin: auto;
+}
+
+.box {
+  height: 200px;
+  width: 100%;
+  background-color: #fff;
+  background-size: cover;
+  background-position: top;
+  transition: ease-in-out 6s;
+}
+
+.box:hover {
+  background-position: bottom;
+}
+
+@media only screen and (max-width: 768px) {
+
+  .box {
+    height: 200px;
+    width: 100%;
+    background-color: #fff;
+    background-size: cover;
+    background-position: top;
+    transition: ease-in-out 6s;
+  }
+  
+  .box:hover {
+    background-position: bottom;
+  }
 }

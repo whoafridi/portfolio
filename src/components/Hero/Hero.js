@@ -1,7 +1,8 @@
 import "./Hero.css";
 import { Typewriter } from "react-simple-typewriter";
-import heroImg from "../../images/hero.svg";
+// import heroImg from "../../images/hero.svg";
 import {FiDownloadCloud} from 'react-icons/fi';
+import afr from '../../images/afr.png';
 
 export default function Hero() {
   return (
@@ -23,10 +24,10 @@ export default function Hero() {
                 {/* Style will be inherited from the parent element */}
                 <Typewriter
                   words={[
-                    "Front end developer",
-                    "Web designer",
-                    "React developer",
-                    "MERN stack developer ",
+                    "Web Designer",
+                    "Front End Developer",
+                    "Web Developer",
+                    "ReactJS Developer",
                   ]}
                   loop={100}
                   cursor
@@ -43,7 +44,7 @@ export default function Hero() {
             </p>
             <button
               type="button"
-              className="btn btn-dark resume-btn rounded-pill "
+              className="border-0 resume-btn rounded-pill"
             >
               <a
                 className="header-btn"
@@ -65,7 +66,7 @@ export default function Hero() {
             data-aos-easing="ease-out-cubic"
             data-aos-duration="2000"
           >
-            <img className="img-fluid w-100" src={heroImg} alt="hero-icon" />
+            <img className="img-fluid img-content" src={afr} alt="rafiuzzaman bhuiyan-hero-icon" />
           </div>
         </div>
       </div>

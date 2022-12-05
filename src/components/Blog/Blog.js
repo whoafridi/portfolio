@@ -1,5 +1,5 @@
 import "./Blog.css";
-import { Pagination } from "swiper";
+import { Pagination, Autoplay } from "swiper";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -7,6 +7,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/swiper.min.css";
 import "swiper/modules/pagination/pagination.min.css";
 import "swiper/modules/navigation/navigation.min.css";
+import "swiper/modules/autoplay/autoplay.min.css";
 
 // data section
 const data = [
@@ -58,7 +59,7 @@ export default function Blog() {
   return (
     <div className="container mt-5 mb-5" id="blogs">
       <h1
-        className="header text-center h1 fw-bold"
+        className="header text-center h1 fw-bold mt-5 mb-5"
         data-aos="fade-up"
         data-aos-easing="ease-out-cubic"
         data-aos-duration="1000"
@@ -66,11 +67,13 @@ export default function Blog() {
         My Blogs
       </h1>
       <Swiper
-        modules={[Pagination]}
+        modules={[Pagination, Autoplay]}
+        loop={true}
         spaceBetween={40}
         slidesPerView={1}
         pagination={{ clickable: true }}
-        className="my-swiper"
+        autoplay={{ delay: 1000 }}
+        className="my-swiper mb-5"
       >
         {data.map(({ id, title, sub_title, text, url }) => {
           return (
@@ -89,7 +92,7 @@ export default function Blog() {
                     href={url}
                     target="_blank"
                     rel="noreferrer"
-                    className="blog-btn mb-3 header-btn2"
+                    className="blog-btn  header-btn2"
                   >
                     Read full
                   </a>

@@ -34,6 +34,14 @@ code {
   color: white !important;
 } 
 
+.technology-text{
+  background: -webkit-linear-gradient(315deg,rgb(8, 17, 88) 25%,#647eff) !important;
+  background-clip: text;
+  -webkit-background-clip: text;
+  border-color: white !important;
+  color: white !important;
+} 
+
 @media only screen and (max-width : 768px){
   .header-btn2{
     padding-left: 10px;

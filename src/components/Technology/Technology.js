@@ -26,21 +26,6 @@ export default function Technology() {
       name: "React Js",
       img: "https://i.ibb.co/23YDv2x/react.png",
     },
-    {
-      id: 6,
-      name: "Node Js",
-      img: "https://i.ibb.co/ZcJ0H3L/nodejs.png",
-    },
-    {
-      id: 7,
-      name: "MongoDb",
-      img: "https://i.ibb.co/nBCvt58/mongodb.png",
-    },
-    {
-      id: 8,
-      name: "Firebase",
-      img: "https://i.ibb.co/cL9rRwg/firebase.png",
-    }
   ]
 
   return (

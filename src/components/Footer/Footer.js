@@ -14,7 +14,7 @@ const Footer = () => {
       />
       <div className="row">
         <div className="col-md-4 mt-5 col-sm-12 text-center ">
-          <h3 className="title fw-bold">Rafi</h3>
+          <h3 className="title fw-bold">Rafiuzzaman.</h3>
           <p className="title fw-bold"> 245/4, West Manikdi, AL-Rayyan Bhaban</p>
           <p className="title fw-bold">Dhaka Cantonment, Dhaka-1206</p>
           <p className="title fw-bold d-flex justify-content-center align-items-center"><IoMdMailOpen className="me-1"/> Email: afridirk10@gmail.com</p>
@@ -36,7 +36,7 @@ const Footer = () => {
             <div className="col-auto">
               <button
                 type="submit"
-                className="btn btn-primary header-btn rounded-pill footer"
+                className="border-0 header-btn rounded-pill footer"
               >
                 Submit
               </button>
@@ -92,7 +92,7 @@ const Footer = () => {
       <div className="row">
         <div className="col">
           <p className="text-center title fw-bolder">
-            Copyright © 2022 - Made by Rafi - All Rights Reserved.
+            Copyright © 2022 - Made with Rafi. - All Rights Reserved.
           </p>
         </div>
       </div>

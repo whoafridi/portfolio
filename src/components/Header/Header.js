@@ -1,10 +1,12 @@
+import './Header.css';
+
 export default function Header() {
   return (
     <div className="container-fluid">
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="container">
           <a className="navbar-brand fw-bold header" href="/">
-            Rafiuzzaman
+            Rafiuzzaman.
           </a>
           <button
             className="navbar-toggler"

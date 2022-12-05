@@ -34,7 +34,7 @@ export default function Contactme() {
           data-aos-easing="ease-out-cubic"
           data-aos-duration="2000"
         >
-          <img className="img-fluid" src={contact} alt="aboutme-icon" />
+          <img className="img-fluid" src={contact} alt="rafiuzzaman bhuiyan-aboutme-icon" />
         </div>
         <div className="col-lg-6 col-md-6 col-sm-12">
           <form className="row g-3" ref={form} onSubmit={sendEmail}>
@@ -80,7 +80,7 @@ export default function Contactme() {
               <button
                 value="Send" 
                 type="submit"
-                className="btn btn-dark rounded-pill header-btn2"
+                className="border-0 rounded-pill header-btn2"
               >
                 Submit
               </button>

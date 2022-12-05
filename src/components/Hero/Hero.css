@@ -44,6 +44,37 @@
   transform: translateX(10deg);
 }
 
+#hero-img{
+  /* background: url('../../images/afr.png'); */
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: inherit;
+  box-shadow: inset 10px 10px 10px 300px rgb(3 19 136 / 65%); 
+  order: 1;
+  justify-self: center;
+  height: 550px;
+  animation: profile__animate 8s ease-in-out infinite 1s;
+}
+
+.img-content{
+    width: 550px;
+    border-radius: 50%;
+    height: 550px;
+    border: 10px solid transparent;
+}
+
+@keyframes profile__animate{
+  0%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+  50%{
+    border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%;
+  }
+  100%{
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+  }
+}
+
 @media only screen and (max-width: 768px) {
   #hero-img {
     display: none;
@@ -64,4 +95,14 @@
     padding-top: 10px;
     padding-bottom: 10px;
   }
+}
+
+@media only screen and (min-width: 1000px){
+  .img-content{
+    width: 620px;
+    border-radius: 60%;
+    height: 550px;
+    border: 10px solid transparent;
+    margin-left: 20px;
+}
 }

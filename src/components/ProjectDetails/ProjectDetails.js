@@ -8,7 +8,7 @@ const ProjectDetails = () => {
   const selectedProject = projects?.filter(
     (project) => project.id === parseInt(id)
   );
-
+    console.log(selectedProject[0].technologies.map(t => t.name));
   return (
     <div className="project-details-section mt-3">
       <div className=" text-center mb-5">
@@ -41,7 +41,7 @@ const ProjectDetails = () => {
                     <img
                       className="img-fluid carousel-img"
                       src={image}
-                      alt="page-images"
+                      alt="rafiuzzaman bhuiyan-page-images"
                     />
                   </div>
                 </Carousel.Item>
@@ -59,10 +59,10 @@ const ProjectDetails = () => {
               <p className="details-text">{selectedProject[0]?.description}</p>
               <div className="mb-3">
                 <p className="technologies ">Techologies: </p>
-                {selectedProject[0]?.techonologies.map((tools) => (
-                  <span className="d-inline-block small tools__name">
-                    {tools},
-                  </span>
+                {selectedProject[0]?.technologies.map((tools) => (
+                  <p className="d-inline-block badge h5 text-dark small tools__name">
+                    {tools.name}
+                  </p>
                 ))}
               </div>
               <p>
