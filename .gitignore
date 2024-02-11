@@ -2,3 +2,5 @@
 /build
 /.vscode
 /src
+/out
+/.next
